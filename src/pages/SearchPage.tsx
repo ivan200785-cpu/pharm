@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import { MedicineCard } from "@/components/MedicineCard";
 import { EmptyState, ErrorState, ListSkeleton } from "@/components/StateViews";
+import { ExternalSearch } from "@/components/ExternalSearch";
 import { SearchBox } from "@/components/SearchBox";
 import { useCatalog } from "@/hooks/useCatalog";
 import { summarize } from "@/services/offers";
@@ -43,9 +44,11 @@ export default function SearchPage() {
         </label>
       </div>
 
+      {!category && <ExternalSearch query={q} />}
+
       {error ? <ErrorState message={error} onRetry={retry} />
         : loading ? <ListSkeleton />
-        : results.length === 0 ? <EmptyState title="Ничего не найдено" hint="Проверьте написание или попробуйте название действующего вещества" />
+        : results.length === 0 ? <EmptyState title="В демо-каталоге ничего не найдено" hint="Проверьте написание или поищите на сайтах аптек ниже" />
         : <div className="grid gap-3 lg:grid-cols-2">{results.map((r) => <MedicineCard key={r.medicine.id} item={r} />)}</div>}
     </div>
   );

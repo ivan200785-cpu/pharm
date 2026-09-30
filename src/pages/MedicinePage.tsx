@@ -8,6 +8,7 @@ import { LocationButton } from "@/components/LocationButton";
 import { OfferCard } from "@/components/OfferCard";
 import { PriceAlertForm } from "@/components/PriceAlertForm";
 import { SortSelect } from "@/components/SortSelect";
+import { ExternalSearch } from "@/components/ExternalSearch";
 import { EmptyState, ErrorState, ListSkeleton } from "@/components/StateViews";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -84,6 +85,8 @@ export default function MedicinePage() {
             </Button>
           </div>
         </div>
+
+        <ExternalSearch query={medicine.name} title="Актуальные цены — на сайтах аптек" />
 
         <div className="grid gap-6 lg:grid-cols-[17rem_1fr]">
           <aside aria-label="Фильтры" className={`${filtersOpen ? "block" : "hidden"} h-fit rounded-lg border bg-card p-4 lg:block`}>
