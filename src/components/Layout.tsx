@@ -1,37 +1,18 @@
-import { Bell, Heart, Home, Map, Pill, User } from "lucide-react";
+import { Heart, Home, Pill } from "lucide-react";
 import { Link, NavLink, Outlet } from "react-router-dom";
-import { CatalogProvider, useCatalog } from "@/hooks/useCatalog";
-import { usePriceAlerts } from "@/hooks/usePriceAlerts";
 import { useAppStore } from "@/store/useAppStore";
 import { cn } from "@/lib/utils";
 import { ThemeToggle } from "./ThemeToggle";
 
 const NAV = [
   { to: "/", label: "Главная", icon: Home, end: true },
-  { to: "/map", label: "Карта", icon: Map },
   { to: "/favorites", label: "Избранное", icon: Heart },
-  { to: "/profile", label: "Профиль", icon: User },
 ];
 
 function navClass({ isActive }: { isActive: boolean }) {
   return cn(
     "flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-accent",
     isActive ? "bg-accent text-accent-foreground" : "text-muted-foreground",
-  );
-}
-
-function AlertBell() {
-  const { offers } = useCatalog();
-  const { unseen } = usePriceAlerts(offers);
-  return (
-    <Link to="/profile#alerts" aria-label={unseen.length ? `Уведомления: ${unseen.length} новых` : "Уведомления"} className="relative inline-flex h-10 w-10 items-center justify-center rounded-md hover:bg-accent">
-      <Bell className="h-5 w-5" aria-hidden />
-      {unseen.length > 0 && (
-        <span className="absolute right-1 top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-destructive px-1 text-[10px] font-bold text-destructive-foreground">
-          {unseen.length}
-        </span>
-      )}
-    </Link>
   );
 }
 
@@ -56,7 +37,6 @@ function Shell() {
             ))}
           </nav>
           <div className="ml-auto flex items-center gap-1">
-            <AlertBell />
             <ThemeToggle />
           </div>
         </div>
@@ -67,7 +47,7 @@ function Shell() {
       </main>
 
       {/* Нижняя навигация для мобильных (mobile-first) */}
-      <nav aria-label="Мобильная навигация" className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-4 border-t bg-background md:hidden">
+      <nav aria-label="Мобильная навигация" className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-2 border-t bg-background md:hidden">
         {NAV.map(({ to, label, icon: Icon, end }) => (
           <NavLink key={to} to={to} end={end} className={({ isActive }) => cn("flex flex-col items-center gap-0.5 py-2 text-xs", isActive ? "text-primary" : "text-muted-foreground")}>
             <Icon className="h-5 w-5" aria-hidden /> {label}
@@ -79,9 +59,5 @@ function Shell() {
 }
 
 export function Layout() {
-  return (
-    <CatalogProvider>
-      <Shell />
-    </CatalogProvider>
-  );
+  return <Shell />;
 }
