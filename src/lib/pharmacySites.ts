@@ -9,6 +9,8 @@ export interface PharmacySite {
 const enc = encodeURIComponent;
 
 export const PHARMACY_SITES: PharmacySite[] = [
+  // город (vladimir) зашит в адрес: у «Пользы» каталог свой для каждого города
+  { name: "Полза", searchUrl: (q) => `https://polza.ru/vladimir/catalog/?q=${enc(q)}` },
   { name: "Аптека April", searchUrl: (q) => `https://apteka-april.ru/search/${enc(q)}` },
   { name: "Столички", searchUrl: (q) => `https://stolichki.ru/search?name=${enc(q)}` },
   { name: "Аптека.ру", searchUrl: (q) => `https://apteka.ru/search/?q=${enc(q)}` },
