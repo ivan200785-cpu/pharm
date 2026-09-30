@@ -9,7 +9,7 @@ export interface PharmacySite {
 const enc = encodeURIComponent;
 
 export const PHARMACY_SITES: PharmacySite[] = [
-  { name: "Аптека April", searchUrl: (q) => `https://apteka-april.ru/search?q=${enc(q)}` },
+  { name: "Аптека April", searchUrl: (q) => `https://apteka-april.ru/search/${enc(q)}` },
   { name: "Столички", searchUrl: (q) => `https://stolichki.ru/search?name=${enc(q)}` },
   { name: "Аптека.ру", searchUrl: (q) => `https://apteka.ru/search/?q=${enc(q)}` },
   { name: "Ригла", searchUrl: (q) => `https://www.rigla.ru/search?q=${enc(q)}` },
