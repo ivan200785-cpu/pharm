@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Глицин">
+<rect width="240" height="240" fill="#f1f5f9"/>
+<rect x="55" y="35" width="130" height="170" rx="10" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+<rect x="55" y="35" width="130" height="50" rx="10" fill="#0d9488"/>
+<rect x="55" y="70" width="130" height="15" fill="#0d9488"/>
+<path d="M115 45h10v8h8v10h-8v8h-10v-8h-8V53h8z" fill="#fff"/>
+<text x="120" y="120" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="700" fill="#0f172a">Глицин</text>
+<text x="120" y="142" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">100 мг</text>
+<text x="120" y="188" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#0d9488">таблетки</text>
+</svg>

@@ -1,0 +1,671 @@
+[
+ {
+  "id": "med-001",
+  "name": "Парацетамол",
+  "activeSubstance": "Парацетамол",
+  "dosage": "500 мг",
+  "form": "таблетки",
+  "manufacturer": "Фармстандарт",
+  "country": "Россия",
+  "category": "Жаропонижающие и обезболивающие",
+  "description": "Жаропонижающее и обезболивающее средство.",
+  "indications": [
+   "Повышенная температура",
+   "Головная боль",
+   "Зубная боль"
+  ],
+  "contraindications": [
+   "Тяжёлые нарушения функции печени",
+   "Повышенная чувствительность к компонентам"
+  ],
+  "imageUrl": "/img/med-001.svg"
+ },
+ {
+  "id": "med-002",
+  "name": "Нурофен",
+  "activeSubstance": "Ибупрофен",
+  "dosage": "200 мг",
+  "form": "таблетки",
+  "manufacturer": "Reckitt Benckiser",
+  "country": "Великобритания",
+  "category": "Жаропонижающие и обезболивающие",
+  "description": "Нестероидный противовоспалительный препарат.",
+  "indications": [
+   "Боль различной локализации",
+   "Лихорадка при простуде"
+  ],
+  "contraindications": [
+   "Язвенная болезнь в стадии обострения",
+   "III триместр беременности"
+  ],
+  "imageUrl": "/img/med-002.svg"
+ },
+ {
+  "id": "med-003",
+  "name": "Ибупрофен",
+  "activeSubstance": "Ибупрофен",
+  "dosage": "400 мг",
+  "form": "таблетки",
+  "manufacturer": "Синтез",
+  "country": "Россия",
+  "category": "Жаропонижающие и обезболивающие",
+  "description": "Противовоспалительное и жаропонижающее средство.",
+  "indications": [
+   "Боль",
+   "Воспаление",
+   "Жар"
+  ],
+  "contraindications": [
+   "Желудочно-кишечные кровотечения",
+   "Бронхиальная астма (аспириновая)"
+  ],
+  "imageUrl": "/img/med-003.svg"
+ },
+ {
+  "id": "med-004",
+  "name": "Аспирин",
+  "activeSubstance": "Ацетилсалициловая кислота",
+  "dosage": "500 мг",
+  "form": "таблетки",
+  "manufacturer": "Bayer",
+  "country": "Германия",
+  "category": "Жаропонижающие и обезболивающие",
+  "description": "Анальгетик, жаропонижающее, антиагрегант.",
+  "indications": [
+   "Головная боль",
+   "Лихорадка",
+   "Мышечные боли"
+  ],
+  "contraindications": [
+   "Дети до 15 лет",
+   "Геморрагический диатез"
+  ],
+  "imageUrl": "/img/med-004.svg"
+ },
+ {
+  "id": "med-005",
+  "name": "Цитрамон П",
+  "activeSubstance": "Парацетамол + аспирин + кофеин",
+  "dosage": "240 мг",
+  "form": "таблетки",
+  "manufacturer": "Обновление",
+  "country": "Россия",
+  "category": "Жаропонижающие и обезболивающие",
+  "description": "Комбинированный анальгетик.",
+  "indications": [
+   "Головная боль",
+   "Невралгия"
+  ],
+  "contraindications": [
+   "Гипертоническая болезнь",
+   "Глаукома"
+  ],
+  "imageUrl": "/img/med-005.svg"
+ },
+ {
+  "id": "med-006",
+  "name": "Амоксициллин",
+  "activeSubstance": "Амоксициллин",
+  "dosage": "500 мг",
+  "form": "капсулы",
+  "manufacturer": "Озон",
+  "country": "Россия",
+  "category": "Антибиотики",
+  "description": "Полусинтетический пенициллин широкого спектра. Отпускается по рецепту.",
+  "indications": [
+   "Инфекции дыхательных путей",
+   "Инфекции мочевыводящих путей"
+  ],
+  "contraindications": [
+   "Аллергия на пенициллины",
+   "Инфекционный мононуклеоз"
+  ],
+  "imageUrl": "/img/med-006.svg"
+ },
+ {
+  "id": "med-007",
+  "name": "Азитромицин",
+  "activeSubstance": "Азитромицин",
+  "dosage": "500 мг",
+  "form": "таблетки",
+  "manufacturer": "Вертекс",
+  "country": "Россия",
+  "category": "Антибиотики",
+  "description": "Антибиотик группы макролидов. Отпускается по рецепту.",
+  "indications": [
+   "Бронхит",
+   "Тонзиллит",
+   "Синусит"
+  ],
+  "contraindications": [
+   "Тяжёлая печёночная недостаточность",
+   "Приём эрготамина"
+  ],
+  "imageUrl": "/img/med-007.svg"
+ },
+ {
+  "id": "med-008",
+  "name": "Супракс",
+  "activeSubstance": "Цефиксим",
+  "dosage": "400 мг",
+  "form": "капсулы",
+  "manufacturer": "Astellas",
+  "country": "Нидерланды",
+  "category": "Антибиотики",
+  "description": "Цефалоспориновый антибиотик III поколения.",
+  "indications": [
+   "Отит",
+   "Фарингит",
+   "Инфекции мочевыводящих путей"
+  ],
+  "contraindications": [
+   "Аллергия на цефалоспорины"
+  ],
+  "imageUrl": "/img/med-008.svg"
+ },
+ {
+  "id": "med-009",
+  "name": "Лоратадин",
+  "activeSubstance": "Лоратадин",
+  "dosage": "10 мг",
+  "form": "таблетки",
+  "manufacturer": "Фармстандарт",
+  "country": "Россия",
+  "category": "Антигистаминные",
+  "description": "Противоаллергическое средство.",
+  "indications": [
+   "Аллергический ринит",
+   "Крапивница"
+  ],
+  "contraindications": [
+   "Дети до 3 лет",
+   "Беременность (с осторожностью)"
+  ],
+  "imageUrl": "/img/med-009.svg"
+ },
+ {
+  "id": "med-010",
+  "name": "Зиртек",
+  "activeSubstance": "Цетиризин",
+  "dosage": "10 мг",
+  "form": "таблетки",
+  "manufacturer": "UCB Pharma",
+  "country": "Бельгия",
+  "category": "Антигистаминные",
+  "description": "Антигистаминное средство II поколения.",
+  "indications": [
+   "Сезонная аллергия",
+   "Аллергический конъюнктивит"
+  ],
+  "contraindications": [
+   "Тяжёлая почечная недостаточность"
+  ],
+  "imageUrl": "/img/med-010.svg"
+ },
+ {
+  "id": "med-011",
+  "name": "Супрастин",
+  "activeSubstance": "Хлоропирамин",
+  "dosage": "25 мг",
+  "form": "таблетки",
+  "manufacturer": "Egis",
+  "country": "Венгрия",
+  "category": "Антигистаминные",
+  "description": "Антигистаминное средство I поколения.",
+  "indications": [
+   "Аллергические реакции",
+   "Кожный зуд"
+  ],
+  "contraindications": [
+   "Приступ бронхиальной астмы",
+   "Глаукома"
+  ],
+  "imageUrl": "/img/med-011.svg"
+ },
+ {
+  "id": "med-012",
+  "name": "Омепразол",
+  "activeSubstance": "Омепразол",
+  "dosage": "20 мг",
+  "form": "капсулы",
+  "manufacturer": "Озон",
+  "country": "Россия",
+  "category": "Желудочно-кишечные",
+  "description": "Ингибитор протонного насоса.",
+  "indications": [
+   "Язвенная болезнь",
+   "Рефлюкс-эзофагит",
+   "Изжога"
+  ],
+  "contraindications": [
+   "Детский возраст до 5 лет",
+   "Одновременный приём нелфинавира"
+  ],
+  "imageUrl": "/img/med-012.svg"
+ },
+ {
+  "id": "med-013",
+  "name": "Мезим форте",
+  "activeSubstance": "Панкреатин",
+  "dosage": "10000 ЕД",
+  "form": "таблетки",
+  "manufacturer": "Berlin-Chemie",
+  "country": "Германия",
+  "category": "Желудочно-кишечные",
+  "description": "Ферментный препарат для улучшения пищеварения.",
+  "indications": [
+   "Недостаточность поджелудочной железы",
+   "Переедание"
+  ],
+  "contraindications": [
+   "Острый панкреатит"
+  ],
+  "imageUrl": "/img/med-013.svg"
+ },
+ {
+  "id": "med-014",
+  "name": "Смекта",
+  "activeSubstance": "Диосмектит",
+  "dosage": "3 г",
+  "form": "порошок",
+  "manufacturer": "Ipsen",
+  "country": "Франция",
+  "category": "Желудочно-кишечные",
+  "description": "Адсорбирующее средство при диарее.",
+  "indications": [
+   "Острая и хроническая диарея",
+   "Изжога"
+  ],
+  "contraindications": [
+   "Непроходимость кишечника"
+  ],
+  "imageUrl": "/img/med-014.svg"
+ },
+ {
+  "id": "med-015",
+  "name": "Линекс",
+  "activeSubstance": "Лактобактерии",
+  "dosage": "280 мг",
+  "form": "капсулы",
+  "manufacturer": "Lek",
+  "country": "Словения",
+  "category": "Желудочно-кишечные",
+  "description": "Пробиотик для восстановления микрофлоры.",
+  "indications": [
+   "Дисбактериоз",
+   "Диарея на фоне антибиотиков"
+  ],
+  "contraindications": [
+   "Непереносимость лактозы"
+  ],
+  "imageUrl": "/img/med-015.svg"
+ },
+ {
+  "id": "med-016",
+  "name": "Активированный уголь",
+  "activeSubstance": "Уголь активированный",
+  "dosage": "250 мг",
+  "form": "таблетки",
+  "manufacturer": "Renewal",
+  "country": "Россия",
+  "category": "Желудочно-кишечные",
+  "description": "Энтеросорбент.",
+  "indications": [
+   "Отравления",
+   "Метеоризм"
+  ],
+  "contraindications": [
+   "Язвенные поражения ЖКТ"
+  ],
+  "imageUrl": "/img/med-016.svg"
+ },
+ {
+  "id": "med-017",
+  "name": "Називин",
+  "activeSubstance": "Оксиметазолин",
+  "dosage": "0,05%",
+  "form": "спрей",
+  "manufacturer": "Merck",
+  "country": "Германия",
+  "category": "От простуды",
+  "description": "Сосудосуживающий спрей для носа.",
+  "indications": [
+   "Насморк",
+   "Синусит"
+  ],
+  "contraindications": [
+   "Атрофический ринит",
+   "Глаукома"
+  ],
+  "imageUrl": "/img/med-017.svg"
+ },
+ {
+  "id": "med-018",
+  "name": "Ринофлуимуцил",
+  "activeSubstance": "Ацетилцистеин + туаминогептан",
+  "dosage": "10 мл",
+  "form": "спрей",
+  "manufacturer": "Zambon",
+  "country": "Италия",
+  "category": "От простуды",
+  "description": "Комбинированный назальный спрей.",
+  "indications": [
+   "Ринит с густой слизью"
+  ],
+  "contraindications": [
+   "Тахикардия",
+   "Гипертиреоз"
+  ],
+  "imageUrl": "/img/med-018.svg"
+ },
+ {
+  "id": "med-019",
+  "name": "Аква Марис",
+  "activeSubstance": "Морская вода",
+  "dosage": "30 мл",
+  "form": "спрей",
+  "manufacturer": "Jadran",
+  "country": "Хорватия",
+  "category": "От простуды",
+  "description": "Гигиена и увлажнение полости носа.",
+  "indications": [
+   "Сухость слизистой",
+   "Профилактика ОРВИ"
+  ],
+  "contraindications": [
+   "Индивидуальная непереносимость"
+  ],
+  "imageUrl": "/img/med-019.svg"
+ },
+ {
+  "id": "med-020",
+  "name": "Амбробене",
+  "activeSubstance": "Амброксол",
+  "dosage": "30 мг",
+  "form": "таблетки",
+  "manufacturer": "Ratiopharm",
+  "country": "Германия",
+  "category": "От простуды",
+  "description": "Муколитик для разжижения мокроты.",
+  "indications": [
+   "Бронхит с трудно отделяемой мокротой"
+  ],
+  "contraindications": [
+   "I триместр беременности"
+  ],
+  "imageUrl": "/img/med-020.svg"
+ },
+ {
+  "id": "med-021",
+  "name": "Лазолван",
+  "activeSubstance": "Амброксол",
+  "dosage": "15 мг/5 мл",
+  "form": "сироп",
+  "manufacturer": "Sanofi",
+  "country": "Италия",
+  "category": "От простуды",
+  "description": "Сироп от кашля.",
+  "indications": [
+   "Влажный кашель",
+   "Трахеобронхит"
+  ],
+  "contraindications": [
+   "Язвенная болезнь в стадии обострения"
+  ],
+  "imageUrl": "/img/med-021.svg"
+ },
+ {
+  "id": "med-022",
+  "name": "Гексорал",
+  "activeSubstance": "Гексэтидин",
+  "dosage": "0,1%",
+  "form": "раствор",
+  "manufacturer": "Johnson & Johnson",
+  "country": "Франция",
+  "category": "От простуды",
+  "description": "Антисептик для горла и полости рта.",
+  "indications": [
+   "Ангина",
+   "Стоматит",
+   "Гингивит"
+  ],
+  "contraindications": [
+   "Возраст до 3 лет"
+  ],
+  "imageUrl": "/img/med-022.svg"
+ },
+ {
+  "id": "med-023",
+  "name": "Арбидол",
+  "activeSubstance": "Умифеновир",
+  "dosage": "100 мг",
+  "form": "капсулы",
+  "manufacturer": "Фармстандарт",
+  "country": "Россия",
+  "category": "Противовирусные",
+  "description": "Противовирусное средство.",
+  "indications": [
+   "Грипп",
+   "ОРВИ"
+  ],
+  "contraindications": [
+   "Возраст до 3 лет"
+  ],
+  "imageUrl": "/img/med-023.svg"
+ },
+ {
+  "id": "med-024",
+  "name": "Ингавирин",
+  "activeSubstance": "Имидазолилэтанамид пентандиовой кислоты",
+  "dosage": "90 мг",
+  "form": "капсулы",
+  "manufacturer": "Валента",
+  "country": "Россия",
+  "category": "Противовирусные",
+  "description": "Противовирусное средство.",
+  "indications": [
+   "Грипп А и B",
+   "ОРВИ"
+  ],
+  "contraindications": [
+   "Беременность",
+   "Лактация"
+  ],
+  "imageUrl": "/img/med-024.svg"
+ },
+ {
+  "id": "med-025",
+  "name": "Ацикловир",
+  "activeSubstance": "Ацикловир",
+  "dosage": "5%",
+  "form": "мазь",
+  "manufacturer": "Акрихин",
+  "country": "Россия",
+  "category": "Противовирусные",
+  "description": "Мазь при герпесе.",
+  "indications": [
+   "Простой герпес",
+   "Опоясывающий лишай"
+  ],
+  "contraindications": [
+   "Повышенная чувствительность к ацикловиру"
+  ],
+  "imageUrl": "/img/med-025.svg"
+ },
+ {
+  "id": "med-026",
+  "name": "Троксевазин",
+  "activeSubstance": "Троксерутин",
+  "dosage": "2%",
+  "form": "мазь",
+  "manufacturer": "Balkanpharma",
+  "country": "Болгария",
+  "category": "Для кожи и суставов",
+  "description": "Венотонизирующее средство для наружного применения.",
+  "indications": [
+   "Варикоз",
+   "Отёки ног",
+   "Гематомы"
+  ],
+  "contraindications": [
+   "Нарушение целостности кожи"
+  ],
+  "imageUrl": "/img/med-026.svg"
+ },
+ {
+  "id": "med-027",
+  "name": "Вольтарен Эмульгель",
+  "activeSubstance": "Диклофенак",
+  "dosage": "1%",
+  "form": "мазь",
+  "manufacturer": "GSK",
+  "country": "Швейцария",
+  "category": "Для кожи и суставов",
+  "description": "Гель для снятия боли и воспаления в суставах.",
+  "indications": [
+   "Боль в суставах",
+   "Ушибы",
+   "Растяжения"
+  ],
+  "contraindications": [
+   "Повреждение кожи",
+   "Дети до 6 лет"
+  ],
+  "imageUrl": "/img/med-027.svg"
+ },
+ {
+  "id": "med-028",
+  "name": "Пантенол",
+  "activeSubstance": "Декспантенол",
+  "dosage": "5%",
+  "form": "мазь",
+  "manufacturer": "Тева",
+  "country": "Венгрия",
+  "category": "Для кожи и суставов",
+  "description": "Ускоряет заживление кожи.",
+  "indications": [
+   "Ожоги",
+   "Трещины кожи",
+   "Пролежни"
+  ],
+  "contraindications": [
+   "Гиперчувствительность"
+  ],
+  "imageUrl": "/img/med-028.svg"
+ },
+ {
+  "id": "med-029",
+  "name": "Левомеколь",
+  "activeSubstance": "Хлорамфеникол + метилурацил",
+  "dosage": "40 г",
+  "form": "мазь",
+  "manufacturer": "Нижфарм",
+  "country": "Россия",
+  "category": "Для кожи и суставов",
+  "description": "Мазь для лечения гнойных ран.",
+  "indications": [
+   "Гнойные раны",
+   "Трофические язвы"
+  ],
+  "contraindications": [
+   "Грибковые заболевания кожи"
+  ],
+  "imageUrl": "/img/med-029.svg"
+ },
+ {
+  "id": "med-030",
+  "name": "Витамин D3",
+  "activeSubstance": "Колекальциферол",
+  "dosage": "2000 МЕ",
+  "form": "капли",
+  "manufacturer": "Вертекс",
+  "country": "Россия",
+  "category": "Витамины",
+  "description": "Восполнение дефицита витамина D.",
+  "indications": [
+   "Профилактика рахита",
+   "Дефицит витамина D"
+  ],
+  "contraindications": [
+   "Гиперкальциемия"
+  ],
+  "imageUrl": "/img/med-030.svg"
+ },
+ {
+  "id": "med-031",
+  "name": "Компливит",
+  "activeSubstance": "Витаминно-минеральный комплекс",
+  "dosage": "30 шт",
+  "form": "таблетки",
+  "manufacturer": "Фармстандарт",
+  "country": "Россия",
+  "category": "Витамины",
+  "description": "Комплекс витаминов и минералов.",
+  "indications": [
+   "Гиповитаминоз",
+   "Повышенные нагрузки"
+  ],
+  "contraindications": [
+   "Гипервитаминоз"
+  ],
+  "imageUrl": "/img/med-031.svg"
+ },
+ {
+  "id": "med-032",
+  "name": "Магне B6",
+  "activeSubstance": "Магния лактат + пиридоксин",
+  "dosage": "470 мг",
+  "form": "таблетки",
+  "manufacturer": "Sanofi",
+  "country": "Франция",
+  "category": "Витамины",
+  "description": "Препарат магния.",
+  "indications": [
+   "Дефицит магния",
+   "Повышенная раздражительность"
+  ],
+  "contraindications": [
+   "Тяжёлая почечная недостаточность"
+  ],
+  "imageUrl": "/img/med-032.svg"
+ },
+ {
+  "id": "med-033",
+  "name": "Глицин",
+  "activeSubstance": "Глицин",
+  "dosage": "100 мг",
+  "form": "таблетки",
+  "manufacturer": "Биотики",
+  "country": "Россия",
+  "category": "Нервная система",
+  "description": "Метаболическое средство, улучшает память.",
+  "indications": [
+   "Стресс",
+   "Снижение памяти",
+   "Нарушения сна"
+  ],
+  "contraindications": [
+   "Индивидуальная непереносимость"
+  ],
+  "imageUrl": "/img/med-033.svg"
+ },
+ {
+  "id": "med-034",
+  "name": "Персен",
+  "activeSubstance": "Экстракты валерианы, мелиссы, мяты",
+  "dosage": "—",
+  "form": "капсулы",
+  "manufacturer": "Lek",
+  "country": "Словения",
+  "category": "Нервная система",
+  "description": "Растительное успокоительное.",
+  "indications": [
+   "Раздражительность",
+   "Бессонница лёгкой степени"
+  ],
+  "contraindications": [
+   "Артериальная гипотензия"
+  ],
+  "imageUrl": "/img/med-034.svg"
+ }
+]
